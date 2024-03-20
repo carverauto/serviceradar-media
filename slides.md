@@ -91,7 +91,9 @@ As digital communication continues to evolve, traditional analysis tools fall sh
 layoutClass: gap-16
 ---
 
-# Introducing ThreadR: AI-Driven Communication Analysis
+# Introducing ThreadR
+
+### AI-Driven Communication Analysis
 
 Carver Automation's ThreadR is engineered to tackle the complexities of managing and analyzing digital communications across multiple platforms. Leveraging the cutting-edge capabilities of Graph-RAG and fine-tuned Large Language Models, ThreadR offers a new paradigm in understanding and navigating digital discourse. Within moments, ThreadR can process vast amounts of chat data, identify patterns, assess relationships, and provide actionable insights.
 
@@ -144,11 +146,20 @@ class: px-20
 
 # Example queries in ThreadR
 
-* Summarize the main topics discussed by the project team last week and identify any unresolved issues.
-* Analyze the communication patterns between departments A and B to identify potential collaboration opportunities or bottlenecks.
-* Generate a report on the most active contributors in our community channel for the past month and highlight their key contributions.
-* Identify any discussions related to 'Project X' across all channels and summarize the sentiment and key takeaways.
-* Provide an overview of yesterday's discussions in the management team channel, highlighting any decisions made or action items assigned.
+***Relationship Mapping and Insight Extraction:***
+Map out the communication network for the project team over the last month, highlighting key influencers and the flow of information. Identify any potential knowledge silos or gaps.
+
+***Cross-Departmental Interaction Analysis:***
+Analyze cross-departmental interactions between teams A and B over the last quarter. Use relationship insights to uncover hidden collaboration opportunities or areas of friction that need addressing.
+
+***Community Engagement and Influence Tracking:***
+Track engagement within our community channel, focusing on relationship dynamics. Identify emerging leaders and their spheres of influence, along with the topics they're driving.
+
+***Project-Specific Discussion Aggregation and Sentiment Analysis:***
+Aggregate all mentions and discussions related to 'Project X' across platforms. Analyze the network of contributors to these discussions, assess overall sentiment, and extract key concerns or suggestions.
+
+***Decision and Action Item Extraction from Executive Communications:***
+From yesterday's executive team communications, identify and map the decision-making process. Highlight the key participants in each decision, the consensus reached, and any action items or responsibilities assigned.
 
 ---
 class: px-20

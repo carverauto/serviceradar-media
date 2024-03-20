@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "threadr-199c8"
+  },
+  "targets": {
+    "threadr-199c8": {
+      "hosting": {
+        "pitch": [
+          "threadr-pitch"
+        ],
+        "threadr-pitch": [
+          "threadr-pitch"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
