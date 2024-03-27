@@ -237,3 +237,46 @@ today and adapt to its demands tomorrow. With the potential for enterprise contr
 innovate, ensuring ThreadR remains at the forefront of AI-driven communication analysis.
 
 -->
+
+---
+class: px-20
+---
+
+# Financial Projections
+
+**Competitive Pricing**: Entry at $89/month, scaling to $899-$1000 for enterprise solutions.
+**Massive Market**: Targeting the 50M+ servers across Slack, Discord, Teams, Telegram.
+**Modest Goal**: Capturing a fraction (e.g., 0.0001%) translates to significant revenue.
+**Growth Strategy**: Tiered pricing for scalability, upsell for advanced features, and custom enterprise solutions.
+**Long-Term Vision**: Beyond initial capture, focusing on retention and expanding market share.
+
+<!--
+Market Size & Opportunity: 
+
+With over 50 million servers across platforms like Slack, Discord, Teams, and Telegram, 
+even a conservative market penetration of 0.0001% positions us for substantial revenue growth. 
+This isn't just about numbers; it's about the untapped potential waiting for the right solution.
+
+Pricing Strategy for Scalability: 
+Our competitive pricing starts at $89/month, scaling up to $899-$1000 for enterprise solutions. This 
+tiered approach not only makes our product accessible to a wide range of businesses but also aligns 
+with our strategy to grow with our customers, maximizing lifetime value.
+
+Growth and Scalability:
+
+By focusing on a scalable SaaS model, we're not just aiming for initial sign-ups. Our strategy includes 
+upselling advanced features and custom solutions, ensuring long-term growth and a steady increase in average 
+revenue per user (ARPU).
+
+-->
+
+---
+class: px-20
+---
+
+# Thank You!
+
+<!-- 
+Thank you for taking the time to learn more about Carver Automation and ThreadR. We're excited about the
+opportunity to make strides in communication analysis.
+-->
