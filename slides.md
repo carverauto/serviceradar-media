@@ -27,7 +27,7 @@ mdc: true
 
 # Carver Automation, LLC
 
-ThreadR: Harnessing AI to Decode Communication Patterns
+ThreadR: Harnessing AI to Decode Communication Patterns and Uncover Relationships
 
 
 <div class="abs-br m-6 flex gap-2">
