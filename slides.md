@@ -69,6 +69,7 @@ connection clear.
 
 ---
 class: px-20
+transition: slide-down
 ---
 
 ## Our Team
@@ -229,6 +230,7 @@ workflows, making it the essential tool for managing and analyzing digital inter
 
 ---
 class: px-20
+transition: fade
 ---
 
 # Business Model
@@ -273,6 +275,7 @@ innovate, ensuring ThreadR remains at the forefront of AI-driven communication a
 
 ---
 class: px-20
+transition: fade-out
 ---
 
 # Financial Projections
