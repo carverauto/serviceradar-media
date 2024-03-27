@@ -245,9 +245,13 @@ class: px-20
 # Financial Projections
 
 **Competitive Pricing**: Entry at $89/month, scaling to $899-$1000 for enterprise solutions.
+
 **Massive Market**: Targeting the 50M+ servers across Slack, Discord, Teams, Telegram.
+
 **Modest Goal**: Capturing a fraction (e.g., 0.0001%) translates to significant revenue.
+
 **Growth Strategy**: Tiered pricing for scalability, upsell for advanced features, and custom enterprise solutions.
+
 **Long-Term Vision**: Beyond initial capture, focusing on retention and expanding market share.
 
 <!--
