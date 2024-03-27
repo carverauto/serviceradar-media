@@ -48,126 +48,16 @@ The last comment block of each slide will be treated as slide notes. It will be 
 transition: fade-out
 ---
 
-# ThreadR: A New Era in Communication Analysis
-## The Growing Complexity of Digital Communications
+# Agenda
 
-In today's digital age, the landscape of communication is more varied and voluminous than ever before. With the proliferation of chat platforms like Slack, Discord, IRC, and Telegram, alongside traditional email exchanges, navigating and making sense of these vast data streams has become a formidable challenge. Organizations now face the daunting task of analyzing these communications effectively to foster collaboration, ensure compliance, and extract valuable insights. Moreover, the rapid evolution of language and communication patterns, accelerated by AI technologies, demands solutions that are not only comprehensive but also adaptable to the shifting dynamics of digital discourse.
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-transition: slide-up
-level: 2
----
-
-# Navigating the Complexities of Modern Digital Communication
-
-The exponential growth in digital communication platforms has led to an overwhelming increase in the volume and variety of data. Organizations struggle to keep pace with the information flow, leading to potential oversights in compliance, security, and valuable insights.
-
-With the rapid expansion of remote work and digital collaboration, there has been a significant rise in miscommunication and misinformation. This not only affects productivity but also poses risks to organizational integrity and reputation.
-
-As digital communication continues to evolve, traditional analysis tools fall short. The dynamic nature of online discourse, including the use of slang, emojis, and shorthand, requires advanced solutions capable of understanding and adapting to new communication styles.
-
----
-layoutClass: gap-16
----
-
-# Introducing ThreadR
-
-### AI-Driven Communication Analysis
-
-Carver Automation's ThreadR is engineered to tackle the complexities of managing and analyzing digital communications across multiple platforms. Leveraging the cutting-edge capabilities of Graph-RAG and fine-tuned Large Language Models, ThreadR offers a new paradigm in understanding and navigating digital discourse. Within moments, ThreadR can process vast amounts of chat data, identify patterns, assess relationships, and provide actionable insights.
-
-Unlike conventional communication analysis tools that struggle with the scale and dynamism of modern digital interactions, ThreadR simplifies the process. It eliminates the need for extensive resource allocation and training, making advanced communication analysis accessible to organizations of all sizes. In an era marked by rapid technological advancements and the increasing importance of clear, secure digital communication, ThreadR stands as a beacon for businesses, educational institutions, and online communities.
-
-By transcending traditional barriers, ThreadR empowers organizations to harness the full potential of their digital communications, ensuring compliance, enhancing security, and unlocking valuable insights hidden within their data.
-
----
-layoutClass: gap-16
----
-
-# Empowering Communication with ThreadR
-
-ThreadR revolutionizes the way businesses and organizations manage and analyze their digital communications. By integrating ThreadR into their digital environments, teams gain access to a powerful, AI-driven platform that simplifies and enhances the understanding of complex communication networks.
-
-With ThreadR, users can effortlessly navigate through vast amounts of data from various chat mediums, including Slack, Discord, IRC, and more, using both a natural language interface and an intuitive dashboard on mobile or web. This dual-access approach ensures that insights and analyses are readily available, whether for real-time decision-making or in-depth historical analysis.
-
----
-layoutClass: gap-16
----
-
-# Key features of ThreadR
-
-* **Comprehensive Analysis**: From identifying key topics of discussion to uncovering hidden relationships within communication data, ThreadR provides a depth of analysis previously unattainable.
-* **Real-time Insights**: ThreadR's AI-driven analysis engine processes data in real-time, providing actionable insights and alerts as they occur.
-* **Efficient Information Retrieval**: Quickly find relevant discussions, decisions, and information exchanges, reducing the time spent searching through archives.
-* **Enhanced Collaboration**: By understanding the dynamics and content of past and present conversations, teams can improve their communication strategies and collaboration efforts.
-
----
-layoutClass: gap-16
----
-
-# Where ThreadR Shines
-
-***Communication Insights Engine***
-
-***Collaboration Enhancement***
-
-***Knowledge Discovery and Management***
-
----
-class: px-20
----
-
-# Enhancing Organizational Insights with ThreadR
-
-#### ThreadR's AI-driven agents transform the way organizations understand and manage their internal and external communications. By analyzing vast amounts of chat and email data, ThreadR identifies key topics, relationships, and insights, enabling teams to stay informed and make data-driven decisions.
-
----
-
-# Example queries in ThreadR
-
-***Relationship Mapping and Insight Extraction:***
-Map out the communication network for the project team over the last month, highlighting key influencers and the flow of information. Identify any potential knowledge silos or gaps.
-
-***Cross-Departmental Interaction Analysis:***
-Analyze cross-departmental interactions between teams A and B over the last quarter. Use relationship insights to uncover hidden collaboration opportunities or areas of friction that need addressing.
-
-***Community Engagement and Influence Tracking:***
-Track engagement within our community channel, focusing on relationship dynamics. Identify emerging leaders and their spheres of influence, along with the topics they're driving.
-
-***Project-Specific Discussion Aggregation and Sentiment Analysis:***
-Aggregate all mentions and discussions related to 'Project X' across platforms. Analyze the network of contributors to these discussions, assess overall sentiment, and extract key concerns or suggestions.
-
-***Decision and Action Item Extraction from Executive Communications:***
-From yesterday's executive team communications, identify and map the decision-making process. Highlight the key participants in each decision, the consensus reached, and any action items or responsibilities assigned.
-
----
-class: px-20
----
-
-# The Future of Communication Analysis and Compliance
-
-#### ThreadR is transforming digital communication with AI-driven insights, making complex data analysis accessible and actionable for everyone. From enhancing team coordination to ensuring compliance, ThreadR simplifies the management of digital interactions across all platforms. It's the essential tool for anyone relying on digital communication, offering a smarter, more insightful way to connect and stay informed.
+1. **Introduction**
+2. **Our Team**
+3. **Business Overview**
+4. **Market Opportunity**
+5. **Value Proposition**
+6. **Go-to-Market Strategy**
+7. **Business Model**
+8. **Financial Projections**
 
 ---
 class: px-20
@@ -176,21 +66,174 @@ class: px-20
 ## Our Team
 
 **Michael Freeman**  
-*Co-Founder/CEO* 
+*Co-Founder/CEO*
 
 **Shruti Mantri**  
-*Co-Founder/Platform*  
+*Co-Founder/Platform*
 
 **Kevin Olson**  
-*Co-Founder/Engineering*  
+*Co-Founder/Engineering*
 
 **Rutvik Tak**  
-*Co-Founder/Mobile*  
+*Co-Founder/Mobile*
+
+<!-- 
+What led us to this opportunity:
+
+My journey into the tech world began in the early '90s, at the age of 13, diving headfirst into
+the computer hacking and phreaking scene. I was one of the founders of the hacker collective known
+as 'w00w00', where some of the members went on to create Napster, WhatsApp, CloudVolumes, and others. 
+Kevin and I met through that group while in high school and have worked together on various projects
+ever since.
+
+Most recently, Kevin, Rutvik, and I worked together to build ChaseApp, an entertainment app that
+released into both the Apple and Google app stores. I found Rutvik through social media and hired
+him to help with the mobile development. Rutvik and I hit it off and have collaborated together 
+over the past several years on various projects.
+
+Kevin and I also most recently worked together at a threat intelligence company funded by In-Q-Tel. 
+Kevin created and developed Fume.App, a platform for serverless deployment of web applications and 
+cloud functions.
+
+Shruti is the newest member to our team and has been a great addition. Shruti and I worked together on
+the Mage.AI opensource data transformation orchestration project, contributing several new features. 
+Prior to that, she was an SRE at Amazon worked on the platform engineering team at Twitter.
+
+-->
 
 ---
 class: px-20
 ---
 
-# Thank You!
+# Business Overview
 
-Contact us at [threadr.ai](https://staging.threadr.ai)
+ThreadR provides AI-driven communication analysis for businesses, uniquely leveraging Graph-RAG 
+and fine-tuned Large Language Models to decode complex communication patterns and extract actionable insights.
+
+---
+class: px-20
+---
+
+# Market Opportunity
+
+- Gartner reports 47% of digital workers struggle to find information, and 32% make wrong decisions due to lack of awareness
+- Rapid expansion of remote work and digital collaboration drives urgent need for advanced communication analysis solutions
+- Slack AI customers save an average of 97 minutes per user each week, highlighting strong demand for AI-powered tools
+- ThreadR addresses these critical needs with an AI-driven solution that simplifies management and analysis of complex digital communications
+
+<!--
+
+Intro: 
+
+In today's digital-first world, the flood of information is overwhelming. Gartner highlights this challenge, noting 
+that nearly half of digital workers struggle to find the information they need, leading to poor decisions and missed 
+opportunities.
+
+The Remote Work Revolution:
+
+The shift to remote work isn't just a trend; it's a transformation. This shift has magnified the need for tools 
+that can cut through the noise, making sense of the vast streams of digital communication. 
+
+The AI Advantage:
+
+Consider the impact of AI in our daily workflows. Slack AI's success, saving users an average of 97 minutes per 
+week, isn't just a statistic; it's a testament to the hunger for efficiency and the potential of AI to meet this 
+demand.
+
+ThreadR's Role:
+
+This is where ThreadR steps in. We're not just another tool; we're a solution designed to address these challenges 
+head-on. By leveraging AI, ThreadR transforms the chaos of digital communication into clarity, enabling better 
+decisions, faster actions, and ultimately, more time for what truly matters.
+
+Closing:
+
+The market is ripe for disruption, and with ThreadR, we're not just participating; we're leading the charge. 
+By understanding the pain points of today's digital workers and addressing them with cutting-edge AI, we're 
+opening the door to a new era of digital communication efficiency.
+-->
+
+---
+class: px-20
+---
+
+# Value Proposition
+
+ThreadR revolutionizes communication analysis by:
+- Simplifying the process of understanding complex communication networks
+- Providing actionable insights and real-time alerts, saving customers an average of 97 minutes per user each week
+- Offering unique capabilities in relationship mapping and insight extraction, differentiating from competitors like Slack AI
+
+<!--
+Before ThreadR, organizations struggled with information silos, leading to costly oversights and missed 
+opportunities. With ThreadR, businesses can now harness the power of AI-driven insights to enhance 
+productivity, foster innovation, and stay ahead in today's rapidly evolving digital landscape
+-->
+
+---
+class: px-20
+---
+
+# Go-to-Market Strategy
+
+**Target market**: Businesses and organizations relying heavily on digital communication platforms
+
+**Positioning**: The essential tool for managing and analyzing digital interactions across all platforms
+
+**Pricing**: SaaS subscription model with tiered pricing based on data volume and feature set
+
+**Marketing and Sales**: Inbound marketing, content marketing, targeted outreach to key decision-makers
+
+**Partnerships**: Integrate with popular communication platforms and complementary tools
+
+<!--
+Our go-to-market strategy targets businesses drowning in digital communications, offering them a 
+straightforward SaaS solution with flexible pricing. We're focused on cutting through the noise with 
+direct marketing and sales efforts, targeting decision-makers who need our tool the most. By partnering 
+with leading communication platforms, we ensure ThreadR integrates seamlessly into our clients' 
+workflows, making it the essential tool for managing and analyzing digital interactions. 
+-->
+
+---
+class: px-20
+---
+
+# Business Model
+
+- SaaS subscription revenue
+- Tiered pricing based on data volume and feature set
+- Upsell opportunities for advanced features and customization
+- Potential for enterprise-level contracts and custom solutions
+
+<!--
+
+SaaS Subscription Revenue:
+
+At the core of our business model is a SaaS subscription structure. This ensures a steady, predictable 
+revenue stream while providing our customers with continuous access to the latest in AI-driven communication
+analysis.
+
+Tiered Pricing Strategy:
+
+We've designed our pricing with scalability in mind. Our tiered model is based on data volume and feature set, 
+allowing businesses of all sizes to find a plan that suits their needs today, with the flexibility to grow tomorrow.
+
+Upsell Opportunities:
+
+Beyond the base subscription, we offer upsell opportunities for advanced features and customization. 
+This not only caters to the specific needs of our customers but also opens additional revenue streams 
+for our business.
+
+Enterprise-Level Contracts:
+
+There's a significant opportunity for enterprise-level contracts and custom solutions. These not only bring 
+in higher revenue but also deepen our relationships with key customers, turning them into long-term partners.
+
+Closing:
+
+Our business model is built for growth, scalability, and customer satisfaction. By combining a flexible SaaS 
+subscription model with tiered pricing and upsell opportunities, we're positioned to meet the market's needs 
+today and adapt to its demands tomorrow. With the potential for enterprise contracts, we're ready to scale and 
+innovate, ensuring ThreadR remains at the forefront of AI-driven communication analysis.
+
+-->
