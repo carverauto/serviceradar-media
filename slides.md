@@ -125,24 +125,24 @@ and fine-tuned Large Language Models to decode complex communication patterns an
 
 Why?
 
-I first came up with the idea for ThreadR or a system like it while I was working at VulnCheck
-on threat intelligence, specifically attribution around threat actors, their infrastructure, and also
-tracking exploit developers. I proposed the system internally but we didn't have the time or resources 
-to build it.
+I first came up with the idea for ThreadR while I was working at VulnCheck on threat intelligence, 
+specifically attribution around threat actors, their infrastructure, and also tracking exploit developers. 
+I proposed the system internally but we didn't have the time or resources to build it.
 
 The idea came back to me while working at my next job after my boss complained that he had no
 idea what I was working on because he didn't have time to sit around and read Slack all day. 
 
-I started building ThreadR as a side project and after running a few different prototype versions of it
-on various chat platforms, I realized that I literally built the most sophisticated chat bot and
-analytics platform ever created, by combining the power of knowledge graphs, with natural language search. 
+I started to develop ThreadR as more than a side project and after running a few different prototype versions 
+of it on various chat platforms, I realized that I literally built the most sophisticated chat bot and
+analytics platform ever created that was public, by combining the power of knowledge graphs, with 
+natural language search. 
 
 No other platform can do what ThreadR can do.
 
 For our MVP we've set out to build a system that can analyze the relationships between users on a chat
 platform and extract insights from the data. We expect that we can leverage this platform to provide
-the same analytics services across other domains, such as social media, email, law enforcement, and
-intelligence.
+the same analytics services across other domains, such as social media, email, and collections from
+law enforcement and defense.
 
 -->
 
