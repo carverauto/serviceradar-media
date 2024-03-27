@@ -27,7 +27,7 @@ mdc: true
 
 # Carver Automation, LLC
 
-Illuminating Chat Dynamics: Harnessing AI to Decode Communication Patterns
+ThreadR: Harnessing AI to Decode Communication Patterns
 
 
 <div class="abs-br m-6 flex gap-2">
