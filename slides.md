@@ -59,6 +59,17 @@ transition: fade-out
 7. **Business Model**
 8. **Financial Projections**
 
+<!--
+
+# Introduction
+
+ThreadR is an AI-driven platform that transforms business communication by mapping the complex relationships 
+between users on platforms like Slack, Discord, Teams, and Telegram. We turn digital noise into clear 
+insights, enhancing decision-making and collaboration. It's about making every message count and every 
+connection clear.
+
+-->
+
 ---
 class: px-20
 ---
