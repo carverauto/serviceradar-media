@@ -191,7 +191,7 @@ class: px-20
 
 **User:** How many PagerDuty alerts fired over the last month along with their teamwise split?
 
-**ThreadR:** There were 152 PagerDuty alerts in total that were fired. Here is the split:
+**ThreadR:** There were 106 PagerDuty alerts in total that were fired. Here is the split:
 - Platform team: 67
 - DevOps team: 29
 - Customer Support team: 10
