@@ -179,6 +179,27 @@ law enforcement and defense.
 class: px-20
 ---
 
+# Example Queries
+**User:** What were the top 3 conversations of utmost importance over the last week?
+
+**ThreadR:** 1. Search system was down for an hour in production impacting all the customers. The revenue impact is still uncertain.
+2. We signed up with 3 new customers: ABC, DEF, and XYZ.
+
+**User:** Does Jason from the Sales team know our Platform Engineer Mike?
+
+**ThreadR:** There has been no direct communication between them, neither have they been part of the same thread. Hence, it is unlikely they know each other.
+
+**User:** How many PagerDuty alerts fired over the last month along with their teamwise split?
+
+**ThreadR:** There were 152 PagerDuty alerts in total that were fired. Here is the split:
+- Platform team: 67
+- DevOps team: 29
+- Customer Support team: 10
+
+---
+class: px-20
+---
+
 # Market Opportunity
 
 - Gartner reports 47% of digital workers struggle to find information, and 32% make wrong decisions due to lack of awareness
