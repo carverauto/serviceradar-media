@@ -86,6 +86,10 @@ class: px-20
 transition: slide-down
 ---
 
+<div class="flex">
+
+<div class="w-1/2">
+  
 ## Our Team
 
 **Michael Freeman**  
@@ -95,10 +99,23 @@ transition: slide-down
 *Co-Founder/Platform*
 
 **Kevin Olson**  
-*Co-Founder/Engineering*
+*Co-Founder/Front-End & API*
 
 **Rutvik Tak**  
 *Co-Founder/Mobile*
+
+</div>
+
+<div class="w-1/2 grid grid-cols-2 gap-4 items-start">
+
+<img src="https://avatars.githubusercontent.com/u/1821930?v=4" class="w-full h-auto rounded shadow" alt="Michael Freeman"/>
+<img src="https://avatars.githubusercontent.com/u/6594483?v=4" class="w-full h-auto rounded shadow" alt="Shruti Mantri"/>
+<img src="https://avatars.githubusercontent.com/u/967369?v=4" class="w-full h-auto rounded shadow" alt="Kevin Olson"/>
+<img src="https://avatars.githubusercontent.com/u/65209850?v=4" class="w-full h-auto rounded shadow" alt="Rutvik Tak"/>
+
+</div>
+
+</div>
 
 <!-- 
 What led us to this opportunity:
