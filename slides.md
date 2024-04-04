@@ -196,6 +196,14 @@ class: px-20
 - DevOps team: 29
 - Customer Support team: 10
 
+<!--
+These are a few example questions that ThreadR can answer. The system is designed to understand natural language
+queries and provide actionable insights based on the data it has ingested. The first example is a query that
+is in the form of a question and the system responds, an easy problem for the LLM to solve. This is a
+summarization, classification, and ranking problem. The second example is a question about relationships
+between users and the system responds with a summary of the data it has ingested. The third example is a
+question about a specific event and the system responds with a summary of the data it has ingested.
+
 ---
 class: px-20
 ---
@@ -208,35 +216,9 @@ class: px-20
 - ThreadR addresses these critical needs with an AI-driven solution that simplifies management and analysis of complex digital communications
 
 <!--
-
-Intro: 
-
-In today's digital-first world, the flood of information is overwhelming. Gartner highlights this challenge, noting 
-that nearly half of digital workers struggle to find the information they need, leading to poor decisions and missed 
-opportunities.
-
-The Remote Work Revolution:
-
-The shift to remote work isn't just a trend; it's a transformation. This shift has magnified the need for tools 
-that can cut through the noise, making sense of the vast streams of digital communication. 
-
-The AI Advantage:
-
-Consider the impact of AI in our daily workflows. Slack AI's success, saving users an average of 97 minutes per 
-week, isn't just a statistic; it's a testament to the hunger for efficiency and the potential of AI to meet this 
-demand.
-
-ThreadR's Role:
-
-This is where ThreadR steps in. We're not just another tool; we're a solution designed to address these challenges 
-head-on. By leveraging AI, ThreadR transforms the chaos of digital communication into clarity, enabling better 
-decisions, faster actions, and ultimately, more time for what truly matters.
-
-Closing:
-
-The market is ripe for disruption, and with ThreadR, we're not just participating; we're leading the charge. 
-By understanding the pain points of today's digital workers and addressing them with cutting-edge AI, we're 
-opening the door to a new era of digital communication efficiency.
+After talking with our potential customers, we found that the biggest problem they face is that they are
+are either unable to keep up with the volume of messages or they are unable to find the information they
+need when they need it. This leads to poor decisions and missed opportunities.
 -->
 
 ---
@@ -252,8 +234,8 @@ ThreadR revolutionizes communication analysis by:
 
 <!--
 Before ThreadR, organizations struggled with information silos, leading to costly oversights and missed 
-opportunities. With ThreadR, businesses can now harness the power of AI-driven insights to enhance 
-productivity, foster innovation, and stay ahead in today's rapidly evolving digital landscape
+opportunities. Businesses can now harness the power of AI-driven insights to enhance productivity, 
+foster innovation, and stay ahead in today's rapidly evolving digital landscape
 -->
 
 ---
