@@ -45,6 +45,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
 transition: fade-out
 ---
 
+<div class="flex">
+
+<div class="w-1/2">
+  
 # Agenda
 
 1. **Introduction**
@@ -55,6 +59,16 @@ transition: fade-out
 6. **Go-to-Market Strategy**
 7. **Business Model**
 8. **Financial Projections**
+
+</div>
+
+<div class="w-1/2 flex justify-center items-center">
+
+<img src="/images/graph.svg" />
+
+</div>
+
+</div>
 
 <!--
 
