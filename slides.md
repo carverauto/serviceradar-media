@@ -45,6 +45,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
 transition: fade-out
 ---
 
+<div class="flex">
+
+<div class="w-1/2">
+  
 # Agenda
 
 1. **Introduction**
@@ -55,6 +59,16 @@ transition: fade-out
 6. **Go-to-Market Strategy**
 7. **Business Model**
 8. **Financial Projections**
+
+</div>
+
+<div class="w-1/2 flex justify-center items-center">
+
+<img src="/images/graph.svg" />
+
+</div>
+
+</div>
 
 <!--
 
@@ -72,6 +86,10 @@ class: px-20
 transition: slide-down
 ---
 
+<div class="flex">
+
+<div class="w-1/2">
+  
 ## Our Team
 
 **Michael Freeman**  
@@ -81,10 +99,23 @@ transition: slide-down
 *Co-Founder/Platform*
 
 **Kevin Olson**  
-*Co-Founder/Engineering*
+*Co-Founder/Front-End & API*
 
 **Rutvik Tak**  
 *Co-Founder/Mobile*
+
+</div>
+
+<div class="w-1/2 grid grid-cols-2 gap-4 items-start">
+
+<img src="https://avatars.githubusercontent.com/u/1821930?v=4" class="w-full h-auto rounded shadow" alt="Michael Freeman"/>
+<img src="https://avatars.githubusercontent.com/u/6594483?v=4" class="w-full h-auto rounded shadow" alt="Shruti Mantri"/>
+<img src="https://avatars.githubusercontent.com/u/967369?v=4" class="w-full h-auto rounded shadow" alt="Kevin Olson"/>
+<img src="https://avatars.githubusercontent.com/u/65209850?v=4" class="w-full h-auto rounded shadow" alt="Rutvik Tak"/>
+
+</div>
+
+</div>
 
 <!-- 
 What led us to this opportunity:
@@ -143,6 +174,27 @@ the same analytics services across other domains, such as social media, email, a
 law enforcement and defense.
 
 -->
+
+---
+class: px-20
+---
+
+# Example Queries
+**User:** What were the top 3 conversations of utmost importance over the last week?
+
+**ThreadR:** 1. Search system was down for an hour in production impacting all the customers. The revenue impact is still uncertain.
+2. We signed up with 3 new customers: ABC, DEF, and XYZ.
+
+**User:** Does Jason from the Sales team know our Platform Engineer Mike?
+
+**ThreadR:** There has been no direct communication between them, neither have they been part of the same thread. Hence, it is unlikely they know each other.
+
+**User:** How many PagerDuty alerts fired over the last month along with their teamwise split?
+
+**ThreadR:** There were 152 PagerDuty alerts in total that were fired. Here is the split:
+- Platform team: 67
+- DevOps team: 29
+- Customer Support team: 10
 
 ---
 class: px-20
