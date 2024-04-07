@@ -9,7 +9,7 @@ favicon: https://staging.threadr.ai/favicon.svg
 title: Carver Automation
 info: |
   ## Carver Automation Pitch Book
-  AI-Driven Chat Analytics for Business Intelligence
+  AI-Driven Analytics for Business Intelligence
 
   Learn more at [threadr.ai](https://staging.threadr.ai)
 # apply any unocss classes to the current slide
@@ -25,9 +25,9 @@ transition: slide-left
 mdc: true
 ---
 
-# Carver Automation, LLC
+# ThreadR.ai
 
-ThreadR: Harnessing AI to Decode Communication Patterns and Uncover Relationships
+### Unlock Insights, Drive Decisions: The Future of Data Intelligence
 
 
 <div class="abs-br m-6 flex gap-2">
@@ -74,10 +74,17 @@ transition: fade-out
 
 # Introduction
 
-ThreadR is an AI-driven platform that transforms business communication by mapping the complex relationships 
-between users on platforms like Slack, Discord, Teams, and Telegram. We turn digital noise into clear 
-insights, enhancing decision-making and collaboration. It's about making every message count and every 
-connection clear.
+ThreadR: Transforming Data into Decisions
+
+ThreadR is our platform we built to ingest streaming data and process it in real-time
+using ETL pipelines, stored in a knowledge graph, and analyzed using Large Language Models.
+
+We're able to enrich that data with expert systems of agents that can add insights and context to the data,
+and we provide a natural language interface around that system.
+
+This data can be anything from chat logs, emails, social media, rich media like audio, video, or images,
+or any other large collections of data, like the Panama Papers. We're able to provide insights into the data
+that would be impossible to get otherwise.
 
 -->
 
@@ -147,8 +154,15 @@ class: px-20
 
 # Business Overview
 
-ThreadR provides AI-driven communication analysis for businesses, uniquely leveraging Graph-RAG 
-and fine-tuned Large Language Models to decode complex communication patterns and extract actionable insights.
+ThreadR revolutionizes business analytics by employing streaming ETL pipelines to integrate data from
+digital platforms into a dynamic knowledge graph. 
+
+Enhanced with fine-tuned Large Language Models, our 
+platform excels in deciphering complex communication patterns and offers users a powerful exploration 
+and investigation tool. 
+
+With ThreadR, querying your data becomes a natural process, enabling the discovery 
+of actionable insights and facilitating strategic decisions with unprecedented ease and efficiency.
 
 <!--
 
@@ -156,7 +170,6 @@ Why?
 
 I first came up with the idea for ThreadR while I was working at VulnCheck on threat intelligence, 
 specifically attribution around threat actors, their infrastructure, and also tracking exploit developers. 
-I proposed the system internally but we didn't have the time or resources to build it.
 
 The idea came back to me while working at my next job after my boss complained that he had no
 idea what I was working on because he didn't have time to sit around and read Slack all day. 
@@ -164,9 +177,7 @@ idea what I was working on because he didn't have time to sit around and read Sl
 I started to develop ThreadR as more than a side project and after running a few different prototype versions 
 of it on various chat platforms, I realized that I literally built the most sophisticated chat bot and
 analytics platform ever created that was public, by combining the power of knowledge graphs, with 
-natural language search. 
-
-No other platform can do what ThreadR can do.
+natural language search, and eventually an expert system of agents that could enhance the data.
 
 For our MVP we've set out to build a system that can analyze the relationships between users on a chat
 platform and extract insights from the data. We expect that we can leverage this platform to provide
@@ -180,6 +191,7 @@ class: px-20
 ---
 
 # Example Queries
+
 **User:** What were the top 3 conversations of utmost importance over the last week?
 
 **ThreadR:** 1. Search system was down for an hour in production impacting all the customers. The revenue impact is still uncertain.
@@ -203,6 +215,7 @@ is in the form of a question and the system responds, an easy problem for the LL
 summarization, classification, and ranking problem. The second example is a question about relationships
 between users and the system responds with a summary of the data it has ingested. The third example is a
 question about a specific event and the system responds with a summary of the data it has ingested.
+-->
 
 ---
 class: px-20
@@ -227,10 +240,11 @@ class: px-20
 
 # Value Proposition
 
-ThreadR revolutionizes communication analysis by:
-- Simplifying the process of understanding complex communication networks
-- Providing actionable insights and real-time alerts, saving customers an average of 97 minutes per user each week
-- Offering unique capabilities in relationship mapping and insight extraction, differentiating from competitors like Slack AI
+ThreadR elevates data utility and insight discovery by:
+
+- **Real-Time Insight**: Harness the power of real-time stream processing to capture and analyze data as events unfold, ensuring immediate access to insights that drive critical business decisions.
+- **Sophisticated Data Transformation**: Utilize advanced ETL pipelines for seamless data integration and transformation, aligning diverse data sources with a dynamic knowledge graph schema for enriched analysis.
+- **Deep Intelligence Enhancement**: Go beyond surface-level data interpretation to uncover profound relationships and insights, empowering organizations to leverage their data for strategic advantage and innovation.
 
 <!--
 Before ThreadR, organizations struggled with information silos, leading to costly oversights and missed 
@@ -316,7 +330,7 @@ transition: fade-out
 
 **Competitive Pricing**: Entry at $89/month, scaling to $899-$1000 for enterprise solutions.
 
-**Massive Market**: Targeting the 50M+ servers across Slack, Discord, Teams, Telegram.
+**Massive Market**: Targeting the 50M+ servers across Slack, Discord, Teams, Telegram for our ChatOps solution.
 
 **Modest Goal**: Capturing a fraction (e.g., 0.0001%) translates to significant revenue.
 
@@ -332,9 +346,9 @@ even a conservative market penetration of 0.0001% positions us for substantial r
 This isn't just about numbers; it's about the untapped potential waiting for the right solution.
 
 Pricing Strategy for Scalability: 
-Our competitive pricing starts at $89/month, scaling up to $899-$1000 for enterprise solutions. This 
-tiered approach not only makes our product accessible to a wide range of businesses but also aligns 
-with our strategy to grow with our customers, maximizing lifetime value.
+Our competitive pricing for our ChatOps service starts at $89/month, scaling up to $899-$1000 for 
+enterprise solutions. This tiered approach not only makes our product accessible to a wide range 
+of businesses but also aligns with our strategy to grow with our customers, maximizing lifetime value.
 
 Growth and Scalability:
 
