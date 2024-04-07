@@ -139,11 +139,11 @@ him to help with the mobile development. Rutvik and I hit it off and have collab
 over the past several years on various projects.
 
 Kevin and I also most recently worked together at a threat intelligence company funded by In-Q-Tel. 
-Kevin created and developed Fume.App, a platform for serverless deployment of web applications and 
+Kevin also created and developed Fume.App, a platform for serverless deployment of web applications and 
 cloud functions.
 
 Shruti is the newest member to our team and has been a great addition. Shruti and I worked together on
-the Mage.AI opensource data transformation orchestration project, contributing several new features. 
+the Mage.AI opensource ETL orchestration tool, contributing several new features. 
 Prior to that, she was an SRE at Amazon worked on the platform engineering team at Twitter.
 
 -->
@@ -175,9 +175,9 @@ The idea came back to me while working at my next job after my boss complained t
 idea what I was working on because he didn't have time to sit around and read Slack all day. 
 
 I started to develop ThreadR as more than a side project and after running a few different prototype versions 
-of it on various chat platforms, I realized that I literally built the most sophisticated chat bot and
-analytics platform ever created that was public, by combining the power of knowledge graphs, with 
-natural language search, and eventually an expert system of agents that could enhance the data.
+of it on various chat platforms, I realized that we had a very sophisticated chat bot and
+analytics platform that combined the power of knowledge graphs, with natural language search 
+in a way I hadn't seen before.
 
 For our MVP we've set out to build a system that can analyze the relationships between users on a chat
 platform and extract insights from the data. We expect that we can leverage this platform to provide
