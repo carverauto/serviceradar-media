@@ -70,6 +70,24 @@ transition: fade-out
 
 </div>
 
+---
+class: px-20
+---
+
+# Introduction
+
+#### ***What is ThreadR***?
+
+**PaaS**: OpenSource AI-powered graph-based streaming ETL platform, hosted in the cloud or on-prem.
+
+ThreadR enables businesses to analyze and derive insights from streaming data in real-time using
+our ETL pipelines, knowledge graph, and Large Language Models (LLMs).
+
+**ChatOps**: Real-time analytics for digital communication platforms built on top of our platform
+
+ThreadR's ChatOps solution provides businesses with a powerful tool to analyze and manage digital
+communications across platforms like Slack, Discord, Teams, and Telegram.
+
 <!--
 
 # Introduction
