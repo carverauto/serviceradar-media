@@ -37,6 +37,10 @@ mdc: true
   </a>
 </div>
 
+<div class="justify-center items-center flex gap-4 mt-20">
+    Press space for the next slide.
+</div>
+
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
@@ -172,15 +176,9 @@ class: px-20
 
 # Business Overview
 
-ThreadR revolutionizes business analytics by employing streaming ETL pipelines to integrate data from
-digital platforms into a dynamic knowledge graph. 
+1. **ThreadR Platform**: The ThreadR Platform stands at the forefront of business analytics, enabling seamless integration of data across diverse digital platforms into an actionable knowledge graph combined with intelligent dataset enrichment.
 
-Enhanced with fine-tuned Large Language Models, our 
-platform excels in deciphering complex communication patterns and offers users a powerful exploration 
-and investigation tool. 
-
-With ThreadR, querying your data becomes a natural process, enabling the discovery 
-of actionable insights and facilitating strategic decisions with unprecedented ease and efficiency.
+2. **ChatOps Solution**: ThreadR's ChatOps solution offers real-time analytics for digital communication platforms, empowering businesses to extract valuable insights from their conversations.
 
 <!--
 
@@ -276,7 +274,7 @@ class: px-20
 
 # Go-to-Market Strategy
 
-**Target market**: Businesses and organizations relying heavily on digital communication platforms
+**Target market**: Enterprise, Research, and Government sectors with a focus on digital communication analysis
 
 **Positioning**: The essential tool for managing and analyzing digital interactions across all platforms
 
@@ -346,7 +344,7 @@ transition: fade-out
 
 # Financial Projections
 
-**Competitive Pricing**: Entry at $89/month, scaling to $899-$1000 for enterprise solutions.
+**Competitive Pricing**: Transparent hourly billing, pay-as-you-go model.
 
 **Massive Market**: Targeting the 50M+ servers across Slack, Discord, Teams, Telegram for our ChatOps solution.
 
