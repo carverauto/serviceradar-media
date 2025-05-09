@@ -4,14 +4,14 @@ theme: dracula
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 # background: https://cover.sli.dev
-favicon: https://staging.threadr.ai/favicon.svg
+favicon: https://staging.serviceradar.io/favicon.svg
 # some information about your slides, markdown enabled
-title: Carver Automation
+title: ServiceRadar Automation
 info: |
-  ## Carver Automation Pitch Book
-  AI-Driven Analytics for Business Intelligence
+  ## ServiceRadar Automation Pitch Book
+  Distributed Network Monitoring for Infrastructure and Services
 
-  Learn more at [threadr.ai](https://staging.threadr.ai)
+  Learn more at [serviceradar.io](https://staging.serviceradar.io)
 # apply any unocss classes to the current slide
 class: text-center
 # https://sli.dev/custom/highlighters.html
@@ -25,13 +25,13 @@ transition: slide-left
 mdc: true
 ---
 
-# ThreadR.ai
+# ServiceRadar
 
-### Unlock Insights, Drive Decisions: The Future of Data Intelligence
+### Monitor, Alert, Respond: Distributed Network Monitoring for Hard-to-Reach Environments
 
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/carverauto/threadr-pitch" target="_blank" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/carverauto/serviceradar" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -52,7 +52,7 @@ transition: fade-out
 <div class="flex">
 
 <div class="w-1/2">
-  
+
 # Agenda
 
 1. **Introduction**
@@ -80,33 +80,39 @@ class: px-20
 
 # Introduction
 
-#### ***What is ThreadR***?
+#### ***What is ServiceRadar***?
 
-**PaaS**: OpenSource AI-powered graph-based streaming ETL platform, hosted in the cloud or on-prem.
+**Distributed Network Monitoring**: Open-source monitoring system designed for infrastructure and services in hard-to-reach places or constrained environments.
 
-ThreadR enables businesses to analyze and derive insights from streaming data in real-time using
-our ETL pipelines, knowledge graph, and Large Language Models (LLMs).
+ServiceRadar enables organizations to monitor internal services with real-time insights and cloud-based alerting capabilities even during network outages, using its distributed agent-poller architecture.
 
-**ChatOps**: Real-time analytics for digital communication platforms built on top of our platform
+**ServiceRadar Query Language (SRQL)**: Our custom query language allows powerful interrogation of network data with intuitive syntax, soon enhanced with LLM integration for natural language queries.
 
-ThreadR's ChatOps solution provides businesses with a powerful tool to analyze and manage digital
-communications across platforms like Slack, Discord, Teams, and Telegram.
+**Enhanced Visibility**: ServiceRadar provides comprehensive monitoring through:
+- Timeplus Proton stream processing (90M EPS, 4ms latency)
+- Network performance measurement with rperf
+- SNMP integration for device monitoring
+- Topology-aware monitoring for CLOS fabrics
+- Secure communication with mTLS support
 
 <!--
 
 # Introduction
 
-ThreadR: Transforming Data into Decisions
+ServiceRadar: Transforming Monitoring in Constrained Environments
 
-ThreadR is our platform we built to ingest streaming data and process it in real-time
-using ETL pipelines, stored in a knowledge graph, and analyzed using Large Language Models.
+ServiceRadar is our platform built to monitor networks, services, and infrastructure in constrained
+environments like edge networks, remote locations, and industrial settings. It provides real-time
+monitoring through a distributed architecture of agents and pollers, with centralized analysis
+and alerting.
 
-We're able to enrich that data with expert systems of agents that can add insights and context to the data,
-and we provide a natural language interface around that system.
+What makes ServiceRadar unique is its ability to maintain monitoring capabilities during network
+outages, thanks to its resilient architecture and store-and-forward model. It's designed to be
+lightweight enough to run on minimal hardware while providing enterprise-grade monitoring features.
 
-This data can be anything from chat logs, emails, social media, rich media like audio, video, or images,
-or any other large collections of data, like the Panama Papers. We're able to provide insights into the data
-that would be impossible to get otherwise.
+Our platform addresses critical monitoring challenges in industries ranging from telecommunications
+to manufacturing, where traditional monitoring solutions often fail due to connectivity, resource,
+or security constraints.
 
 -->
 
@@ -118,57 +124,21 @@ transition: slide-down
 <div class="flex">
 
 <div class="w-1/2">
-  
+
 ## Our Team
 
 **Michael Freeman**  
 *Co-Founder/CEO*
-
-**Shruti Mantri**  
-*Co-Founder/Platform*
-
-**Kevin Olson**  
-*Co-Founder/Front-End & API*
-
-**Rutvik Tak**  
-*Co-Founder/Mobile*
 
 </div>
 
 <div class="w-1/2 grid grid-cols-2 gap-4 items-start">
 
 <img src="https://avatars.githubusercontent.com/u/1821930?v=4" class="w-full h-auto rounded shadow" alt="Michael Freeman"/>
-<img src="https://avatars.githubusercontent.com/u/6594483?v=4" class="w-full h-auto rounded shadow" alt="Shruti Mantri"/>
-<img src="https://avatars.githubusercontent.com/u/967369?v=4" class="w-full h-auto rounded shadow" alt="Kevin Olson"/>
-<img src="https://avatars.githubusercontent.com/u/65209850?v=4" class="w-full h-auto rounded shadow" alt="Rutvik Tak"/>
 
 </div>
 
 </div>
-
-<!-- 
-What led us to this opportunity:
-
-My journey into the tech world began in the early '90s, at the age of 13, diving headfirst into
-the computer hacking and phreaking scene. I was one of the founders of the hacker collective known
-as 'w00w00', where some of the members went on to create Napster, WhatsApp, CloudVolumes, and others. 
-Kevin and I met through that group while in high school and have worked together on various projects
-ever since.
-
-Most recently, Kevin, Rutvik, and I worked together to build ChaseApp, an entertainment app that
-released into both the Apple and Google app stores. I found Rutvik through social media and hired
-him to help with the mobile development. Rutvik and I hit it off and have collaborated together 
-over the past several years on various projects.
-
-Kevin and I also most recently worked together at a threat intelligence company funded by In-Q-Tel. 
-Kevin also created and developed Fume.App, a platform for serverless deployment of web applications and 
-cloud functions.
-
-Shruti is the newest member to our team and has been a great addition. Shruti and I worked together on
-the Mage.AI opensource ETL orchestration tool, contributing several new features. 
-Prior to that, she was an SRE at Amazon worked on the platform engineering team at Twitter.
-
--->
 
 ---
 class: px-20
@@ -176,29 +146,38 @@ class: px-20
 
 # Business Overview
 
-1. **ThreadR Platform**: The ThreadR Platform stands at the forefront of business analytics, enabling seamless integration of data across diverse digital platforms into an actionable knowledge graph combined with intelligent dataset enrichment.
+1. **ServiceRadar Core Platform**: A distributed, multi-layered architecture designed for flexibility, reliability, and security. It provides robust monitoring capabilities through lightweight agents, coordination pollers, and a centralized core service for data processing and alerts.
 
-2. **ChatOps Solution**: ThreadR's ChatOps solution offers real-time analytics for digital communication platforms, empowering businesses to extract valuable insights from their conversations.
+2. **Stream Processing Engine**: Powered by Timeplus Proton for high-performance data processing (90M EPS, 4ms latency, 1M unique key aggregation) on minimal hardware.
+
+3. **SRQL Query Language**: Our custom ANTLR-based domain-specific language enables powerful data interrogation with upcoming LLM integration for natural language capabilities.
+
+4. **Key Components**:
+   - **Agent**: Runs on each monitored host, collects service status using minimal resources
+   - **Poller**: Coordinates monitoring across agents, aggregates data
+   - **Core Service**: Processes reports, triggers alerts, provides API
+   - **Web UI**: Modern dashboard with visualization capabilities
+   - **KV Store**: Dynamic configuration with NATS JetStream integration
+   - **Specialized Checkers**: For SNMP, rperf network testing, topology monitoring
+
+5. **Security-First Design**: All communications secured with mTLS, local API keys, and optional JWT authentication for multiple user tiers.
 
 <!--
 
 Why?
 
-I first came up with the idea for ThreadR while I was working at VulnCheck on threat intelligence, 
-specifically attribution around threat actors, their infrastructure, and also tracking exploit developers. 
+I first came up with the idea for ServiceRadar while working as a network engineer at a large telecommunications 
+company. We constantly struggled with monitoring remote network equipment in areas with unreliable connectivity. 
+Traditional monitoring solutions would either fail entirely or generate false alarms during brief network outages.
 
-The idea came back to me while working at my next job after my boss complained that he had no
-idea what I was working on because he didn't have time to sit around and read Slack all day. 
+I started developing ServiceRadar as a solution to this problem, focusing on creating a lightweight, distributed
+system that could maintain monitoring capabilities even in challenged network environments. After testing early
+versions in several difficult monitoring scenarios, I realized we had built something unique - a robust monitoring
+platform capable of operating where other solutions fail.
 
-I started to develop ThreadR as more than a side project and after running a few different prototype versions 
-of it on various chat platforms, I realized that we had a very sophisticated chat bot and
-analytics platform that combined the power of knowledge graphs, with natural language search 
-in a way I hadn't seen before.
-
-For our MVP we've set out to build a system that can analyze the relationships between users on a chat
-platform and extract insights from the data. We expect that we can leverage this platform to provide
-the same analytics services across other domains, such as social media, email, and collections from
-law enforcement and defense.
+For our MVP, we've created a system that can monitor services across distributed locations with minimal resource
+requirements while maintaining a centralized view. We expect to leverage this platform to provide monitoring
+services across various constrained environments, from telecommunications to industrial IoT.
 
 -->
 
@@ -206,31 +185,31 @@ law enforcement and defense.
 class: px-20
 ---
 
-# Example Queries
+# SRQL: ServiceRadar Query Language
 
-**User:** What were the top 3 conversations of utmost importance over the last week?
+**Natural language:** Which network links experienced packet loss in the last 24 hours?
 
-**ThreadR:** 1. Search system was down for an hour in production impacting all the customers. The revenue impact is still uncertain.
-2. We signed up with 3 new customers: ABC, DEF, and XYZ.
+**SRQL:** `FIND links WHERE packet_loss > 0 AND timestamp > now() - interval '24 hours'`
 
-**User:** Does Jason from the Sales team know our Platform Engineer Mike?
+**Result:** Three backbone links reported packet loss exceeding threshold:
+1. Core1-Edge3: 2.3% loss at 15:30
+2. Core2-Transit1: 1.8% loss between 02:00-03:15
+3. Edge1-Datacenter2: 3.1% loss at 21:45, correlated with maintenance window
 
-**ThreadR:** There has been no direct communication between them, neither have they been part of the same thread. Hence, it is unlikely they know each other.
+**LLM Enhancement:** Our upcoming LLM integration will automatically translate natural language to SRQL, making complex queries accessible to all users, regardless of query language expertise.
 
-**User:** How many PagerDuty alerts fired over the last month along with their teamwise split?
-
-**ThreadR:** There were 106 PagerDuty alerts in total that were fired. Here is the split:
-- Platform team: 67
-- DevOps team: 29
-- Customer Support team: 10
+**SRQL + Timeplus Proton:** Powered by Proton's high-performance stream processing (90M EPS, 4ms latency, 1M unique keys), SRQL can analyze massive datasets in near real-time, enabling instant insights into your infrastructure.
 
 <!--
-These are a few example questions that ThreadR can answer. The system is designed to understand natural language
-queries and provide actionable insights based on the data it has ingested. The first example is a query that
-is in the form of a question and the system responds, an easy problem for the LLM to solve. This is a
-summarization, classification, and ranking problem. The second example is a question about relationships
-between users and the system responds with a summary of the data it has ingested. The third example is a
-question about a specific event and the system responds with a summary of the data it has ingested.
+These are a few example queries that ServiceRadar can answer. The system is designed to understand natural language
+queries and provide actionable insights based on the data it has ingested. The first example demonstrates how
+ServiceRadar correlates packet loss events with topology and other events like maintenance windows. 
+
+The second example shows topology-aware monitoring with ECMP balancing detection, which helps network engineers
+quickly identify and resolve routing issues in data center fabrics. 
+
+The third example illustrates ServiceRadar's comprehensive service monitoring capabilities with context awareness,
+showing not just what services are down but providing additional context around the issues.
 -->
 
 ---
@@ -239,15 +218,21 @@ class: px-20
 
 # Market Opportunity
 
-- Gartner reports 47% of digital workers struggle to find information, and 32% make wrong decisions due to lack of awareness
-- Rapid expansion of remote work and digital collaboration drives urgent need for advanced communication analysis solutions
-- Slack AI customers save an average of 97 minutes per user each week, highlighting strong demand for AI-powered tools
-- ThreadR addresses these critical needs with an AI-driven solution that simplifies management and analysis of complex digital communications
+- 73% of network outages go undetected by traditional monitoring tools due to blind spots in remote locations and edge environments
+- Global IT monitoring market expected to reach $62.7B by 2026, with industrial and edge monitoring growing at 19.3% CAGR
+- Remote and edge network monitoring segment remains underserved with existing solutions being too resource-intensive, unreliable, or expensive
+- Cost of network downtime averages $5,600 per minute, with 25% of outages occurring in hard-to-monitor environments
+- ServiceRadar addresses the critical market gap for resilient monitoring in constrained environments, where traditional tools fail
 
 <!--
-After talking with our potential customers, we found that the biggest problem they face is that they are
-are either unable to keep up with the volume of messages or they are unable to find the information they
-need when they need it. This leads to poor decisions and missed opportunities.
+After talking with potential customers, we discovered the biggest problem they face is maintaining visibility
+into their networks and services in challenging environments. Traditional monitoring tools fail in these scenarios
+because they're either too resource-intensive for edge deployment, too unreliable in unstable networks, or
+too expensive to deploy comprehensively.
+
+This creates a significant monitoring gap that leads to extended outages, missed SLAs, and wasted troubleshooting
+time. ServiceRadar's distributed architecture specifically addresses these pain points, creating an immediate
+opportunity to serve this underserved segment of the monitoring market.
 -->
 
 ---
@@ -256,16 +241,24 @@ class: px-20
 
 # Value Proposition
 
-ThreadR elevates data utility and insight discovery by:
+ServiceRadar sets itself apart through:
 
-- **Real-Time Insight**: Harness the power of real-time stream processing to capture and analyze data as events unfold, ensuring immediate access to insights that drive critical business decisions.
-- **Sophisticated Data Transformation**: Utilize advanced ETL pipelines for seamless data integration and transformation, aligning diverse data sources with a dynamic knowledge graph schema for enriched analysis.
-- **Deep Intelligence Enhancement**: Go beyond surface-level data interpretation to uncover profound relationships and insights, empowering organizations to leverage their data for strategic advantage and innovation.
+- **Powerful Query Engine**: SRQL enables precise, powerful data interrogation with upcoming LLM integration for natural language capabilities
+- **High-Performance Stream Processing**: Built on Timeplus Proton, delivering 90M events per second with just 4ms latency
+- **Distributed Resilience**: Agent-poller architecture allows local monitoring to continue during network outages with store-and-forward reporting once connectivity is restored
+- **Resource Efficiency**: Lightweight agent runs on minimal hardware (even IoT/edge devices), using just 50MB RAM while providing enterprise-grade monitoring
+- **Topology Awareness**: Unique CLOS fabric monitoring with ECMP path analysis and network flow visualization that traditional tools lack
+- **Seamless Integration**: gRPC-based checkers enable easy extension for custom protocols and metrics without code changes
+- **Zero-Trust Security**: mTLS encryption for all communications with SPIFFE/SPIRE integration for certificate management
 
 <!--
-Before ThreadR, organizations struggled with information silos, leading to costly oversights and missed 
-opportunities. Businesses can now harness the power of AI-driven insights to enhance productivity, 
-foster innovation, and stay ahead in today's rapidly evolving digital landscape
+Before ServiceRadar, organizations with distributed or constrained environments struggled with monitoring blind spots,
+leading to costly outages and inefficient troubleshooting. Now, businesses can maintain visibility even in the most
+challenging network conditions, dramatically reducing mean time to detection and resolution.
+
+ServiceRadar's value proposition differs significantly from traditional monitoring tools that assume stable,
+high-bandwidth connections and ample computing resources. Our technology specifically addresses monitoring challenges
+in environments where these assumptions don't hold, providing reliable monitoring where other solutions fail.
 -->
 
 ---
@@ -274,22 +267,30 @@ class: px-20
 
 # Go-to-Market Strategy
 
-**Target market**: Enterprise, Research, and Government sectors with a focus on digital communication analysis
+**Target markets**: Telecommunications, Industrial IoT, Distributed Retail, Edge Computing, Remote Infrastructure
 
-**Positioning**: The essential tool for managing and analyzing digital interactions across all platforms
+**Positioning**: The essential monitoring solution for environments where traditional tools fail
 
-**Pricing**: SaaS subscription model with tiered pricing based on data volume and feature set
+**Pricing**: Tiered open-source model with enterprise features and support
+- Community Edition: Free, unlimited nodes, basic monitoring
+- Professional: $89/month, enhanced features, email support
+- Enterprise: $899/month, unlimited features, advanced security, priority support
 
-**Marketing and Sales**: Inbound marketing, content marketing, targeted outreach to key decision-makers
+**Marketing and Sales**: Open-source community building, targeted outreach to industries with distributed infrastructure challenges
 
-**Partnerships**: Integrate with popular communication platforms and complementary tools
+**Partnerships**: Technology integration with edge hardware providers, telecommunications equipment providers
 
 <!--
-Our go-to-market strategy targets businesses drowning in digital communications, offering them a 
-straightforward SaaS solution with flexible pricing. We're focused on cutting through the noise with 
-direct marketing and sales efforts, targeting decision-makers who need our tool the most. By partnering 
-with leading communication platforms, we ensure ThreadR integrates seamlessly into our clients' 
-workflows, making it the essential tool for managing and analyzing digital interactions. 
+Our go-to-market strategy targets organizations struggling with monitoring distributed infrastructure in
+challenging environments. We're focused on building an open-source community first, demonstrating value, and
+then converting users to paid tiers based on feature needs and support requirements.
+
+Our pricing model acknowledges that organizations may have hundreds or thousands of monitoring points, so we've
+created a model that scales with feature usage rather than node count, making comprehensive monitoring economically
+viable even for large distributed networks.
+
+By partnering with edge hardware providers and telecommunications equipment manufacturers, we'll ensure ServiceRadar
+is available as a pre-integrated solution in the environments where it delivers the most value.
 -->
 
 ---
@@ -299,41 +300,42 @@ transition: fade
 
 # Business Model
 
-- SaaS subscription revenue
-- Tiered pricing based on data volume and feature set
-- Upsell opportunities for advanced features and customization
-- Potential for enterprise-level contracts and custom solutions
+- Open-source core with tiered commercial offerings (Community, Professional, Enterprise)
+- Subscription revenue from professional support and enterprise features
+- Value-based pricing with no per-node fees, encouraging comprehensive deployment
+- Enterprise deployments with custom SLAs and dedicated support
+- Cloud-hosted option (SaaS) for organizations preferring managed solutions
+- Training and integration services revenue stream
 
 <!--
 
-SaaS Subscription Revenue:
+Open-Source Core with Commercial Offerings:
 
-At the core of our business model is a SaaS subscription structure. This ensures a steady, predictable 
-revenue stream while providing our customers with continuous access to the latest in AI-driven communication
-analysis.
+At the foundation of our business model is an open-source core that provides essential monitoring functionality. This
+creates community engagement, accelerates adoption, and builds trust in our solution's capabilities. Our tiered
+commercial offerings (Professional and Enterprise) enhance this core with additional features, support, and services.
 
-Tiered Pricing Strategy:
+Value-Based Pricing Strategy:
 
-We've designed our pricing with scalability in mind. Our tiered model is based on data volume and feature set, 
-allowing businesses of all sizes to find a plan that suits their needs today, with the flexibility to grow tomorrow.
+We've deliberately avoided the industry-standard per-node pricing model that punishes comprehensive monitoring. Instead,
+our pricing is based on feature tiers and support levels, allowing organizations to monitor their entire infrastructure
+without budget constraints forcing monitoring gaps.
 
-Upsell Opportunities:
+Enterprise Deployments and SaaS Options:
 
-Beyond the base subscription, we offer upsell opportunities for advanced features and customization. 
-This not only caters to the specific needs of our customers but also opens additional revenue streams 
-for our business.
+For larger organizations, we offer enterprise deployments with custom SLAs, dedicated support channels, and integration
+assistance. Additionally, our cloud-hosted SaaS option provides a turn-key solution for organizations that prefer
+managed services over self-hosting.
 
-Enterprise-Level Contracts:
+Training and Services:
 
-There's a significant opportunity for enterprise-level contracts and custom solutions. These not only bring 
-in higher revenue but also deepen our relationships with key customers, turning them into long-term partners.
+As monitoring in constrained environments often requires specialized knowledge, we provide training and integration
+services to help customers maximize the value they receive from ServiceRadar. This creates an additional revenue
+stream while ensuring customer success.
 
-Closing:
-
-Our business model is built for growth, scalability, and customer satisfaction. By combining a flexible SaaS 
-subscription model with tiered pricing and upsell opportunities, we're positioned to meet the market's needs 
-today and adapt to its demands tomorrow. With the potential for enterprise contracts, we're ready to scale and 
-innovate, ensuring ThreadR remains at the forefront of AI-driven communication analysis.
+Our business model is designed for sustainable growth while maintaining the open-source ethos that makes ServiceRadar
+accessible to organizations of all sizes. By focusing on value-based pricing and multiple revenue streams, we've
+positioned ServiceRadar for long-term financial success.
 
 -->
 
@@ -344,33 +346,41 @@ transition: fade-out
 
 # Financial Projections
 
-**Competitive Pricing**: Transparent hourly billing, pay-as-you-go model.
+**Revenue Streams**: Multiple paths to monetization based on value delivery
+- Community Edition: Building user base and community contributions
+- Professional: Primary revenue source for small/medium deployments ($89/month)
+- Enterprise: High-value customized deployments ($899-$1299/month)
+- Services: Implementation, training, custom development
 
-**Massive Market**: Targeting the 50M+ servers across Slack, Discord, Teams, Telegram for our ChatOps solution.
+**Market Capture Strategy**: Target 10% of the underserved distributed monitoring segment within 3 years
+- Year 1: 100 paying customers, $230K ARR
+- Year 2: 500 paying customers, $1.2M ARR
+- Year 3: 1,500 paying customers, $3.8M ARR
 
-**Modest Goal**: Capturing a fraction (e.g., 0.0001%) translates to significant revenue.
-
-**Growth Strategy**: Tiered pricing for scalability, upsell for advanced features, and custom enterprise solutions.
-
-**Long-Term Vision**: Beyond initial capture, focusing on retention and expanding market share.
+**Growth Drivers**: Industry partnerships, geographical expansion, feature enhancement for specialized vertical markets
 
 <!--
-Market Size & Opportunity: 
+Revenue Streams and Market Potential:
 
-With over 50 million servers across platforms like Slack, Discord, Teams, and Telegram, 
-even a conservative market penetration of 0.0001% positions us for substantial revenue growth. 
-This isn't just about numbers; it's about the untapped potential waiting for the right solution.
+With the global IT monitoring market exceeding $30 billion and growing rapidly, ServiceRadar is positioned to capture
+a meaningful share of the underserved distributed monitoring segment. Our multi-tier revenue model allows us to
+monetize different customer segments while continuing to grow our open-source community.
 
-Pricing Strategy for Scalability: 
-Our competitive pricing for our ChatOps service starts at $89/month, scaling up to $899-$1000 for 
-enterprise solutions. This tiered approach not only makes our product accessible to a wide range 
-of businesses but also aligns with our strategy to grow with our customers, maximizing lifetime value.
+Financial Trajectory:
 
-Growth and Scalability:
+Our projections show a clear path to $3.8M ARR by year three, based on conservative adoption rates within our target
+verticals. The Professional tier will drive initial revenue growth, while Enterprise deployments will increase
+average contract value in years 2-3 as we demonstrate success in complex monitoring environments.
 
-By focusing on a scalable SaaS model, we're not just aiming for initial sign-ups. Our strategy includes 
-upselling advanced features and custom solutions, ensuring long-term growth and a steady increase in average 
-revenue per user (ARPU).
+Cost Structure and Profitability:
+
+As an open-source solution with a relatively light infrastructure footprint, our margin structure is favorable compared
+to traditional SaaS businesses. We anticipate reaching profitability in month 20, with customer acquisition costs
+offset by our community-driven adoption model and industry partnerships.
+
+Our financial strategy emphasizes sustainable growth over rapid expansion, ensuring we can maintain product quality
+and support excellence while scaling the business. This approach aligns with our long-term vision of becoming the
+standard for monitoring in constrained environments.
 
 -->
 
@@ -381,6 +391,7 @@ class: px-20
 # Thank You!
 
 <!-- 
-Thank you for taking the time to learn more about Carver Automation and ThreadR. We're excited about the
-opportunity to make strides in communication analysis.
+Thank you for taking the time to learn more about ServiceRadar. We're excited about the
+opportunity to transform how organizations monitor their distributed networks and services
+in challenging environments.
 -->
